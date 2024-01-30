@@ -5,6 +5,7 @@ body{
     overflow-x: hidden;
     font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
+    background-color: #edf1f7;
 }
 .navbar {
     display: flex;
@@ -14,8 +15,9 @@ body{
     padding: 10px;
     height: 50px;
     position: fixed;
-    top: 0;
+    top: 0%;
     z-index: 1000;
+    background-color: #edf1f7;
 }
 
 .left-nav {
@@ -30,25 +32,24 @@ body{
     width: 10%;
     display: flex;
     justify-content: space-between;
-    border: solid;
 }
 .left-nav div a, .right-nav div a{
     text-decoration: none;
-    color: #fff;
+    color: #33334f;
     font-size: 18px;
 
 }
 .first-section {
     position: relative;
     padding-block: 15%;
-    background-image: linear-gradient(
+    /* background-image: linear-gradient(
         rgba(15, 26, 44, 0.5),
         rgba(15, 26, 44, 0.5)
-    ), url("img/pexels-cátia-matos-1072179.jpg");
+    ), url("img/pexels-cátia-matos-1072179.jpg"); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #fff;
+    color: #33334f;
     padding-inline: 50px;
     display: flex;
     z-index: 1;
@@ -72,7 +73,7 @@ form {
     position: relative;
     z-index: 2; 
     display: flex;
-    background-color: #fff;
+    background-color: #edf1f7;
     align-items: center;
     width: 90%;
     height: 90px;
@@ -85,7 +86,7 @@ form {
     display: flex;
     flex-direction: column;
     font-size: 15px;
-    color: black;
+    color: #33334f;
     margin-top: -10px;
 }
 
@@ -94,6 +95,8 @@ form {
     height: 40px;
     font-size: 18px;
     border: solid 0px;
+    background-color: #edf1f7;
+    color: #33334f;
 }
 
 .input__group input:focus,
@@ -107,7 +110,7 @@ select:focus {
     height: 50px;
     width: 200px;
     margin-bottom: -9px;
-    background-color: #414e41;
+    background-color:#189cf4;
     border: solid 0px;
     border-radius: 10px;
     color: #fff;
@@ -126,4 +129,124 @@ select:focus {
     width: 100%;
     height: 100%;
     z-index: 0; 
+}
+
+.aboutus{
+    display: flex;
+    padding-inline: 30px;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+.aboutus img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding-top: 10px;
+    border-radius: 50px;
+}
+.img-us{
+    aspect-ratio: 2/1;
+}
+.aboutus a{
+    text-decoration: none;
+    color: #33334f;
+  
+}
+.services h1{
+    font-size: 30px;
+}
+.services{
+    padding-inline: 20px;
+}
+.services:hover{
+    border-left: solid 2px;
+    
+}
+.title-cars-section h1{
+    color: #33334f;
+    font-size: 40px;
+}
+.title-cars-section p{
+    margin-top: -30px;
+}
+.cars{
+    padding-inline: 50px;
+    padding-top: 50px;
+}
+.cars-info{
+    width: 360px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 9px rgba(1, 1, 2, 0.2);
+}
+.cars-info a{
+    text-decoration: none;
+    color: #33334f;
+}
+.car-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+
+}
+.img-car{
+    width: 340px;
+    margin-left: 10px;
+    border-radius:10px ;
+}
+.car-details1{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    padding-left:25px ;
+    margin-top: -10px;
+}
+.car-details1 li img,
+.car-details2 li img{
+    width: 16px;
+    height: auto;
+    padding-right: 5px;
+    margin-bottom: -2px;
+}
+.car-details2{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    width: 265px;
+    padding-left:25px ;
+    margin-top: -10px;
+}
+span{
+    color:#189cf4 ;
+    border: dashed #189cf4 2px;
+    border-radius: 5px ;
+    padding-inline: 5px;
+}
+.price-car{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 340px;
+}
+.price-car h1{
+    padding-inline: 25px;
+    font-size: 30px;
+}
+sub{
+    font-size: 16px;
+    position: absolute;
+    top: 36px;
+}
+.price-car button{
+    background-color: #189cf4;
+    border: 0px;
+    color: #edf1f7;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
 }
